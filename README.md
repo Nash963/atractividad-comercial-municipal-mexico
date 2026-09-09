@@ -47,10 +47,28 @@ Municipios de México.
 - Visual Studio Code
 - Git / GitHub
 
+
 ## Estado del proyecto
 
-Actualmente en:
+### Avance actual
 
-**CRISP-DM - Fase 2: Data Understanding**
+La construcción, validación y homologación de la base maestra municipal se encuentran concluidas. La base final utilizada para el análisis contiene **2,440 municipios** con información demográfica, educativa, laboral, socioeconómica y comercial.
 
-Se está realizando la construcción, validación y homologación de las bases municipales antes de ejecutar los modelos de regresión.
+Dentro del flujo **CRISP-DM**, las etapas de comprensión y preparación de los datos ya fueron completadas. Para la **regresión lineal simple** también se concluyeron las etapas de modelado y evaluación.
+
+Actualmente se cuenta con:
+
+- análisis descriptivo y exploratorio;
+- análisis de correlación de Pearson;
+- cuatro modelos de regresión lineal simple;
+- evaluación de formas funcionales alternativas;
+- pruebas de significancia estadística;
+- diagnóstico de heterocedasticidad;
+- errores estándar robustos HC3;
+- análisis de observaciones influyentes y sensibilidad;
+- evaluación predictiva fuera de muestra;
+- métricas de error e intervalos de predicción.
+
+**Estado de la regresión lineal simple:** concluida y documentada.
+
+**Siguiente etapa:** desarrollo y evaluación de la **regresión lineal múltiple**, incorporando simultáneamente las variables explicativas seleccionadas.
