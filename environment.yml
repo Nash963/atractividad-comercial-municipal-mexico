@@ -1,0 +1,14 @@
+name: atractividad_comercial_Mexico
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - matplotlib
+  - numpy
+  - scipy
+  - scikit-learn
+  - ipykernel
+  - statsmodels
+  - pandas
+  - jupyter
+  - openpyxl
